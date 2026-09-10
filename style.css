@@ -91,3 +91,6 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+
+.pool-note { margin: 17px auto 0; color: #8e4b5c; font-size: 12px; line-height: 1.45; }
+.pool-note span { display: inline-grid; place-items: center; width: 18px; height: 18px; margin-right: 3px; border-radius: 50%; color: #fff7ee; background: #bd6c77; font-size: 12px; vertical-align: -2px; }
